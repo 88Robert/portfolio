@@ -1,0 +1,26 @@
+[
+    {
+      "title": "In progress",
+      "imageSrc": "projects/project.png",
+      "description": "",
+      "skills": ["", "", ""],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "title": "In progress",
+      "imageSrc": "projects/project.png",
+      "description": "",
+      "skills": ["", "", "", ""],
+      "demo": "",
+      "source": ""
+    },
+    {
+      "title": "In progress",
+      "imageSrc": "projects/project.png",
+      "description": "",
+      "skills": ["", "", ""],
+      "demo": "",
+      "source": ""
+    }
+  ]

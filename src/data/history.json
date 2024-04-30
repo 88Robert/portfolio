@@ -1,0 +1,29 @@
+[
+    {
+      "role": "Frontend med webbsäkerhet",
+      "organisation": "Jensen Yrkeshögskola",
+      "startDate": "Aug, 2023",
+      "endDate": "Jun, 2025",
+      "experiences": ["Grundförståelse för", ""],
+      "imageSrc": "history/jensen.png"
+    },
+    {
+      "role": "Nothing yet",
+      "organisation": "",
+      "startDate": "",
+      "endDate": "",
+      "experiences": ["", ""],
+      "imageSrc": ""
+    },
+    {
+      "role": "Nothing yet",
+      "organisation": "",
+      "startDate": "",
+      "endDate": "",
+      "experiences": [
+        "",
+        ""
+      ],
+      "imageSrc": ""
+    }
+  ]
