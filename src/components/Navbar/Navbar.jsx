@@ -1,16 +1,25 @@
 import { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageURL } from "../../utils";
+import { useTranslation } from "../../contexts/TranslationContext";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOPen] = useState(false);
+  const { t, toggleLanguage, language } = useTranslation();
 
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        {t("navbar.portfolio")}
       </a>
       <div className={styles.menu}>
+        <button 
+          className={styles.translateBtn}
+          onClick={toggleLanguage}
+          aria-label="Toggle language"
+        >
+          {language === 'sv' ? 'EN' : 'SV'}
+        </button>
         <img
           className={styles.menuBtn}
           src={
@@ -26,16 +35,16 @@ export const Navbar = () => {
           onClick={() => setMenuOPen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="#about">{t("navbar.about")}</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience">{t("navbar.experience")}</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">{t("navbar.projects")}</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">{t("navbar.contact")}</a>
           </li>
         </ul>
       </div>

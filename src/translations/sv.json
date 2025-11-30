@@ -1,0 +1,57 @@
+{
+  "navbar": {
+    "portfolio": "Portfolio",
+    "about": "Om Mig",
+    "experience": "Erfarenheter",
+    "projects": "Projekt",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Hej, Jag heter Robert!",
+    "description": "Driven Frontentutvecklare med inrikting Webbsäkerhet. Jag har ett stort engagemang i det jag gör och är alltid nyfiken och öppen för nya erfarenheter. Klicka på länkarna för att veta mer om mig.",
+    "contactBtn": "Kontakta Mig"
+  },
+  "about": {
+    "title": "Om Mig",
+    "frontend": {
+      "title": "Frontend Utvecklare",
+      "description": "Glad, positiv och ambitiös utvecklare som gillar att lösa problem och utveckla nya funktioner. Alltid redo att lära sig nya saker och utveckla mina kunskaper."
+    },
+    "backend": {
+      "title": "Backend",
+      "description": "Har skapat mig en grundförståelse i uppbyggnad av backend och API."
+    },
+    "security": {
+      "title": "Säkerhet",
+      "description": "Förutom Frontend har våran utbildning fokuserat på webbsäkerhet."
+    }
+  },
+  "experience": {
+    "title": "Erfarenheter",
+    "history": {
+      "0": {
+        "role": "Frontend med webbsäkerhet",
+        "organisation": "Jensen Yrkeshögskola",
+        "experiences": ["Grundförståelse för webbutveckling, design och optimering", "Grundförståelse för webbsäkerhet och analys"]
+      },
+      "1": {
+        "role": "Praktik",
+        "organisation": "Campcation AB",
+        "experiences": ["Lösa buggar i befintliga kodbaser.", "Utveckla nya funktioner i befintliga kodbaser."]
+      },
+      "2": {
+        "role": "Projektanställd",
+        "organisation": "Campaction AB",
+        "experiences": ["Fortsätta med projekt i V2.", "Fortsätta bygga features och lösa buggarFortsätta med projekt i V2."]
+      }
+    }
+  },
+  "projects": {
+    "title": "Projekt"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Hör gärna av er!"
+  }
+}
+

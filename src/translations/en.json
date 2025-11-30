@@ -1,0 +1,57 @@
+{
+  "navbar": {
+    "portfolio": "Portfolio",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi, I'm Robert!",
+    "description": "Driven Frontend Developer with a focus on Web Security. I have great commitment in what I do and am always curious and open to new experiences. Click on the links to learn more about me.",
+    "contactBtn": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "frontend": {
+      "title": "Frontend Developer",
+      "description": "Happy, positive and ambitious developer who likes to solve problems and develop new features. Always ready to learn new things and develop my skills."
+    },
+    "backend": {
+      "title": "Backend",
+      "description": "I have created a basic understanding of backend and API construction."
+    },
+    "security": {
+      "title": "Security",
+      "description": "In addition to Frontend, our education has focused on web security."
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "history": {
+      "0": {
+        "role": "Frontend with Web Security",
+        "organisation": "Jensen Yrkeshögskola",
+        "experiences": ["Basic understanding of web development, design and optimization", "Basic understanding of web security and analysis"]
+      },
+      "1": {
+        "role": "Internship",
+        "organisation": "Campcation AB",
+        "experiences": ["Fix bugs in existing codebases.", "Develop new features in existing codebases."]
+      },
+      "2": {
+        "role": "Project Employee",
+        "organisation": "Campaction AB",
+        "experiences": ["Continue with projects in V2.", "Continue building features and fixing bugs."]
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Feel free to reach out!"
+  }
+}
+

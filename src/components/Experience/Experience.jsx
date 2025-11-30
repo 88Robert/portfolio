@@ -3,11 +3,14 @@ import skills from "../../data/skills.json";
 import { getImageURL } from "../../utils";
 import history from "../../data/history.json";
 import styles from './Experience.module.css'
+import { useTranslation } from "../../contexts/TranslationContext";
 
 export const Experience = () => {
+  const { t } = useTranslation();
+
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Erfarenheter</h2>
+      <h2 className={styles.title}>{t("experience.title")}</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {
@@ -23,17 +26,18 @@ export const Experience = () => {
         </div>
         <ul className={styles.history}>
           {history.map((historyItem, id) => {
+            const translatedHistory = t(`experience.history.${id}`);
             return (
               <li key={id} className={styles.historyItem}>
                 <img
                   src={getImageURL(historyItem.imageSrc)}
-                  alt={`${historyItem.organisation} Logo`}
+                  alt={`${translatedHistory.organisation} Logo`}
                 />
                 <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
+                  <h3>{`${translatedHistory.role}, ${translatedHistory.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                  <ul>{historyItem.experiences.map((experience, id) => {
-                    return <li key={id}>{experience}</li>
+                  <ul>{translatedHistory.experiences.map((experience, expId) => {
+                    return <li key={expId}>{experience}</li>
                   })}</ul>
                 </div>
               </li>

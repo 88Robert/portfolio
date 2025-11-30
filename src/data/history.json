@@ -4,26 +4,23 @@
       "organisation": "Jensen Yrkeshögskola",
       "startDate": "Aug, 2023",
       "endDate": "Jun, 2025",
-      "experiences": ["Grundförståelse för", ""],
+      "experiences": ["Grundförståelse för webbutveckling, design och optimering", "Grundförståelse för webbsäkerhet och analys"],
       "imageSrc": "history/jensen.png"
     },
     {
-      "role": "Nothing yet",
-      "organisation": "",
-      "startDate": "",
-      "endDate": "",
-      "experiences": ["", ""],
-      "imageSrc": ""
+      "role": "Praktik",
+      "organisation": "Campcation AB",
+      "startDate": "Sep, 2024",
+      "endDate": "Maj, 2025",
+      "experiences": ["Lösa buggar i befintliga kodbaser.", "Utveckla nya funktioner i befintliga kodbaser."],
+      "imageSrc": "history/campcation_logo.png" 
     },
     {
-      "role": "Nothing yet",
-      "organisation": "",
-      "startDate": "",
-      "endDate": "",
-      "experiences": [
-        "",
-        ""
-      ],
-      "imageSrc": ""
+      "role": "Projektanställd",
+      "organisation": "Campaction AB",
+      "startDate": "Aug, 2025",
+      "endDate": "JAN, 2025",
+      "experiences": ["Fortsätta med projekt i V2.", "Fortsätta bygga features och lösa buggarFortsätta med projekt i V2."],
+      "imageSrc": "history/campcation_logo.png"
     }
   ]

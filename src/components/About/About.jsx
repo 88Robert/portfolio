@@ -1,11 +1,14 @@
 import React from "react";
 import styles from "./About.module.css";
 import { getImageURL } from "../../utils";
+import { useTranslation } from "../../contexts/TranslationContext";
 
 export const About = () => {
+  const { t } = useTranslation();
+
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>Om Mig</h2>
+      <h2 className={styles.title}>{t("about.title")}</h2>
       <div className={styles.content}>
         <img
           src={getImageURL("about/aboutViking.png")}
@@ -16,30 +19,27 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageURL("about/cursorIcon.png")} alt="Cursor Icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Utvecklare</h3>
+              <h3>{t("about.frontend.title")}</h3>
               <p>
-                Jag är en frontend utvecklare under utblidning, där jag
-                utvecklar mina kunskaper för att bygga och optimera responsiva
-                sidor.
+                {t("about.frontend.description")}
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageURL("about/ServerIcon.png")} alt="Cursor Icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend</h3>
+              <h3>{t("about.backend.title")}</h3>
               <p>
-                Har skapat mig en grundförståelse i uppbyggnad av backend och
-                API.
+                {t("about.backend.description")}
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageURL("about/Design.png")} alt="Cursor Icon" />
             <div className={styles.aboutItemText}>
-              <h3>Säkerhet</h3>
+              <h3>{t("about.security.title")}</h3>
               <p>
-                Förutom Frontend har våran utbildning fokuserat på webbsäkerhet.
+                {t("about.security.description")}
               </p>
             </div>
           </li>

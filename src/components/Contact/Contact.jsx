@@ -1,13 +1,16 @@
 import React from 'react'
 import { getImageURL } from "../../utils";
 import styles from "./Contact.module.css"
+import { useTranslation } from "../../contexts/TranslationContext";
 
 export const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <footer id="contact" className={styles.container}>
         <div className={styles.text}>
-            <h3>Kontakt</h3>
-            <p>Hör gärna av er!</p>
+            <h3>{t("contact.title")}</h3>
+            <p>{t("contact.subtitle")}</p>
             </div>
             <ul className={styles.links}>
                 <li className={styles.link}>

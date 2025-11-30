@@ -5,17 +5,20 @@ import { About } from "./components/About/About";
 import { Experience } from "./components/Experience/Experience";
 import { Projects } from "./components/Projects/Projects";
 import { Contact } from "./components/Contact/Contact";
+import { TranslationProvider } from "./contexts/TranslationContext";
 
 function App() {
   return (
-    <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-    </div>
+    <TranslationProvider>
+      <div className={styles.App}>
+        <Navbar />
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+      </div>
+    </TranslationProvider>
   );
 }
 
